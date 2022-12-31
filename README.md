@@ -5,7 +5,7 @@ I'm a student with a passion for web development.
 Thanks for stopping by and make sure to have a great day!
 
 ## 🔭 What I'm working on
-- My [personal website](https://github.com/ajhawkings/hawkings.me) using [SolidJS](https://github.com/solidjs/solid)
+- My [personal website](https://github.com/ajhawkings/hawkings.me) using [solid-start](https://github.com/solidjs/solid-start)
 - Other websites in private repositories using [Next.js](https://github.com/vercel/next.js)
 
 ## 💻 Languages
