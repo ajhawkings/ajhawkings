@@ -37,5 +37,5 @@ Thanks for stopping by and make sure to have a great day!
 
 <div>
   <img height=180 src="https://github-readme-stats.vercel.app/api?username=ajhawkings&count_private=true&show_icons=true&include_all_commits=true&hide=stars" />
-  <img height=180 src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajhawkings&layout=compact" />
+  <img height=180 src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajhawkings&layout=compact&exclude_repo=games,terminal-documentation" />
 <div>
