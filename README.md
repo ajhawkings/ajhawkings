@@ -9,9 +9,10 @@ Thanks for stopping by and make sure to have a great day!
 - Advent of Code 2024 in Haskell - coming soon
 
 ## Recent projects 
-- [ajhawkings/conradmargoles](https://github.com/ajhawkings/conradmargoles) - A professional portfolio [website](conradmargoles.com) for a small London-based architectural firm using Next.js 
-- [ajhawkings/squabble](https://github.com/ajhawkings/squabble) - A simple vanilla HTML/CSS/JS [website](squabble.hawkings.me) for a Young Enterprise project
-- YearInfo - a school information system developed over 4 years - being open-sourced soon!
+- [ajhawkings/conradmargoles](https://github.com/ajhawkings/conradmargoles) - A professional portfolio [website](https://conradmargoles.com) for a small London-based architectural firm using Next.js 
+- [ajhawkings/squabble](https://github.com/ajhawkings/squabble) - A simple vanilla HTML/CSS/JS [website](https://squabble.hawkings.me) for a Young Enterprise project
+- YearInfo - an information portal for schools that I co-developed over 4 years - being open-sourced soon!
+- [ajhawkings/nodejs-extensions](https://github.com/ajhawkings/nodejs-extensions) - A small [extension pack](https://marketplace.visualstudio.com/items?itemName=ajhawkings.nodejs-extensions) for Node.js development in VS Code with 10,000+ installs
 
 ## My favourite tools
 
