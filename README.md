@@ -6,7 +6,7 @@ Thanks for stopping by and make sure to have a great day!
 
 ## What I'm working on 👨‍💻
 - [ajhawkings/hawkings.me](https://github.com/ajhawkings/hawkings.me) - my personal website, built with [solid-start](https://github.com/solidjs/solid-start)
-- Advent of Code 2024 in Haskell - coming soon
+- [ajhawkings/aoc24](https://github.com/ajhawkings/aoc24) - Advent of Code 2024 in Haskell
 
 ## Recent projects 
 - [ajhawkings/conradmargoles](https://github.com/ajhawkings/conradmargoles) - A professional portfolio [website](https://conradmargoles.com) for a small London-based architectural firm using Next.js 
