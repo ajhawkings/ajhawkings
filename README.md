@@ -6,12 +6,15 @@ Thanks for stopping by and make sure to have a great day!
 
 ## What I'm working on 👨‍💻
 - [ajhawkings/hawkings.me](https://github.com/ajhawkings/hawkings.me) - my personal website, built with [solid-start](https://github.com/solidjs/solid-start)
+- A family recipe project built with Next.js and next-auth (private repository)
+- Learning MIPS assembly and C for my Computer Systems course
 
 ## Recent projects 
-- [ajhawkings/conradmargoles](https://github.com/ajhawkings/conradmargoles) - A professional portfolio [website](https://conradmargoles.com) for a small London-based architectural firm using Next.js 
+- [ajhawkings/conradmargoles](https://github.com/ajhawkings/conradmargoles) - A professional portfolio [website](https://conradmargoles.com) for a small London-based architectural firm using Next.js
+- [ajhawkings/nodejs-extensions](https://github.com/ajhawkings/nodejs-extensions) - A small [extension pack](https://marketplace.visualstudio.com/items?itemName=ajhawkings.nodejs-extensions) for Node.js development in VS Code with 25,000+ installs
 - [ajhawkings/squabble](https://github.com/ajhawkings/squabble) - A simple vanilla HTML/CSS/JS [website](https://squabble.hawkings.me) for a Young Enterprise project
 - YearInfo - an information portal for schools that I co-developed over 4 years - being open-sourced soon!
-- [ajhawkings/nodejs-extensions](https://github.com/ajhawkings/nodejs-extensions) - A small [extension pack](https://marketplace.visualstudio.com/items?itemName=ajhawkings.nodejs-extensions) for Node.js development in VS Code with 25,000+ installs
+
 
 ## My favourite tools
 
