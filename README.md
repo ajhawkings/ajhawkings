@@ -5,9 +5,8 @@ I'm a second-year Computer Science student at the University of Edinburgh.
 Thanks for stopping by and make sure to have a great day!
 
 ## What I'm working on 👨‍💻
-- [ajhawkings/hawkings.me](https://github.com/ajhawkings/hawkings.me) - my personal website, built with [solid-start](https://github.com/solidjs/solid-start)
+- [ajhawkings/hawkings.me](https://github.com/ajhawkings/hawkings.me) - my personal website, built with [Astro](https://astro.build) and [Cloudflare Workers](https://workers.cloudflare.com)
 - A family recipe project built with Next.js and next-auth (private repository)
-- Learning MIPS assembly and C for my Computer Systems course
 
 ## Recent projects 
 - [ajhawkings/conradmargoles](https://github.com/ajhawkings/conradmargoles) - A professional portfolio [website](https://conradmargoles.com) for a small London-based architectural firm using Next.js
