@@ -31,7 +31,7 @@ jobs:
 
       - name: Generate stats cards
         env:
-          PAT_1: ${{ secrets.GITHUB_PAT || github.token }}
+          PAT_1: ${{ secrets.GH_README_STATS_TOKEN || github.token }}
           REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: |
           node --input-type=module <<'EOF'
