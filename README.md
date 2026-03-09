@@ -45,9 +45,7 @@ Thanks for stopping by and make sure to have a great day!
 
 ## Stats
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=ajhawkings&theme=meta-light&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
-
 <div>
-  <img height=180 src="https://github-readme-stats.vercel.app/api?username=ajhawkings&count_private=true&show_icons=true&include_all_commits=true&hide=stars&hide_rank=true" />
-  <img height=180 src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajhawkings&layout=compact&exclude_repo=games,terminal-documentation,squabble&hide=html" />
-<div>
+  <img height=180 src="./profile/stats.svg" alt="Angus's GitHub stats" />
+  <img height=180 src="./profile/top-langs.svg" alt="Angus's top languages" />
+</div>
