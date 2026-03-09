@@ -3,7 +3,6 @@ name: Update README stats
 on:
   push:
     paths:
-      - README.md
       - .github/workflows/update-readme-stats.yml
   schedule:
     - cron: "0 3 * * *"
@@ -27,6 +26,7 @@ jobs:
           mkdir -p /tmp/github-readme-stats
           cd /tmp/github-readme-stats
           npm init -y >/dev/null
+          # Pin the renderer to a known commit for reproducible card output.
           npm install github:readme-tools/github-readme-stats#fb62f4e96cb4b43811bfd969d0e7a428421cb817
 
       - name: Generate stats cards
