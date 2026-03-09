@@ -45,6 +45,8 @@ Thanks for stopping by and make sure to have a great day!
 
 ## Stats
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=ajhawkings&theme=meta-light&date_format=j%20M%5B%20Y%5D&mode=weekly)](https://git.io/streak-stats)
+
 <div>
   <img height=180 src="./profile/stats.svg" alt="Angus's GitHub stats" />
   <img height=180 src="./profile/top-langs.svg" alt="Angus's top languages" />
