@@ -15,23 +15,77 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
 
-      - name: Generate stats card
-        uses: readme-tools/github-readme-stats-action@v1
+      - uses: actions/setup-node@v4
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&count_private=true&show_icons=true&include_all_commits=true&hide=stars&hide_rank=true
-          path: profile/stats.svg
-          token: ${{ secrets.GH_README_STATS_TOKEN || github.token }}
+          node-version: "22"
 
-      - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&exclude_repo=games,terminal-documentation,squabble&hide=html
-          path: profile/top-langs.svg
-          token: ${{ secrets.GH_README_STATS_TOKEN || github.token }}
+      - name: Install GitHub Readme Stats renderer
+        run: |
+          rm -rf /tmp/github-readme-stats
+          mkdir -p /tmp/github-readme-stats
+          cd /tmp/github-readme-stats
+          npm init -y >/dev/null
+          npm install github:readme-tools/github-readme-stats#fb62f4e96cb4b43811bfd969d0e7a428421cb817
+
+      - name: Generate stats cards
+        env:
+          PAT_1: ${{ secrets.GITHUB_PAT || github.token }}
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: |
+          node --input-type=module <<'EOF'
+          import { mkdir, writeFile } from "node:fs/promises";
+          import path from "node:path";
+          import statsApi from "/tmp/github-readme-stats/node_modules/github-readme-stats/api/index.js";
+          import topLangsApi from "/tmp/github-readme-stats/node_modules/github-readme-stats/api/top-langs.js";
+
+          const renderCard = async (handler, query, outputPath) => {
+            let svg = "";
+            const response = {
+              setHeader: () => {},
+              send: (value) => {
+                svg = value;
+                return value;
+              },
+            };
+
+            await handler({ query }, response);
+            if (!svg) {
+              throw new Error(`Card renderer returned empty output for ${outputPath}`);
+            }
+
+            const resolvedPath = path.resolve(process.cwd(), outputPath);
+            await mkdir(path.dirname(resolvedPath), { recursive: true });
+            await writeFile(resolvedPath, svg, "utf8");
+          };
+
+          const username = process.env.REPOSITORY_OWNER;
+
+          await renderCard(
+            statsApi,
+            {
+              username,
+              count_private: "true",
+              show_icons: "true",
+              include_all_commits: "true",
+              hide: "stars",
+              hide_rank: "true",
+            },
+            "profile/stats.svg",
+          );
+
+          await renderCard(
+            topLangsApi,
+            {
+              username,
+              layout: "compact",
+              exclude_repo: "games,terminal-documentation,squabble",
+              hide: "html",
+            },
+            "profile/top-langs.svg",
+          );
+          EOF
 
       - name: Commit cards
         run: |
