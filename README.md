@@ -2,7 +2,7 @@
 
 I'm a second-year Computer Science student at the University of Edinburgh.
 
-Thanks for stopping by and make sure to have a great day!
+Check out my website: [hawkings.me](https://www.hawkings.me) for details of what I'm up to.
 
 ## What I'm working on 👨‍💻
 - [ajhawkings/hawkings.me](https://github.com/ajhawkings/hawkings.me) - my personal website, built with [Astro](https://astro.build) and [Cloudflare Workers](https://workers.cloudflare.com)
