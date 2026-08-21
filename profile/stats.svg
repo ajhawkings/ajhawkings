@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Angus Hawkings' GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Commits  : 1138, Total PRs: 235, Total Issues: 91, Contributed to (last year): 7</desc>
+        <desc id="descId">Total Commits  : 1138, Total PRs: 236, Total Issues: 91, Contributed to (last year): 7</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 105.38293838352656;
+        stroke-dashoffset: 105.34965806125737;
       }
     }
   
@@ -166,7 +166,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >235</text>
+      >236</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
